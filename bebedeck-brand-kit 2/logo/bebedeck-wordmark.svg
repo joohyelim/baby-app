@@ -1,0 +1,7 @@
+<svg width="520" height="160" viewBox="0 0 520 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="bebedeck wordmark">
+  <!-- Wordmark. Replace <text> with outlined paths before final handoff for font independence.
+       Type: Poppins / Quicksand (Latin), weight 700, letter-spacing -2. -->
+  <text x="20" y="105" font-family="Poppins, Quicksand, 'Segoe UI', sans-serif" font-size="92" font-weight="700" letter-spacing="-3">
+    <tspan fill="#211A14">bebe</tspan><tspan fill="#FF5A1F">deck</tspan>
+  </text>
+</svg>

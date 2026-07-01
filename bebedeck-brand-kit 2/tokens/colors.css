@@ -1,0 +1,30 @@
+/* bebedeck — Color Tokens
+ * 멀티컬러 시스템. 각 키컬러는 큐레이션 카테고리/지표와 매핑됩니다.
+ */
+:root {
+  /* ---- Brand key colors ---- */
+  --bd-tangerine: #FF5A1F; /* Primary — 브랜드 메인, CTA, 강조 */
+  --bd-leaf:      #14C46A; /* 성분/안전 OK, 식품 카테고리 */
+  --bd-azure:     #2D7DFF; /* 안전인증·신뢰, 정보 */
+  --bd-coral:     #FF3B5C; /* 알림·주의 배지, 식기/포인트 */
+  --bd-cocoa:     #6B3A23; /* 오렌지브라운 — 딥 텍스트/보조 */
+
+  /* ---- Tints & shades (primary) ---- */
+  --bd-tangerine-700: #D8410F;
+  --bd-tangerine-100: #FFE3D5;
+  --bd-leaf-100:      #D6F6E5;
+  --bd-azure-100:     #DCE9FF;
+  --bd-coral-100:     #FFDCE3;
+
+  /* ---- Neutrals ---- */
+  --bd-ink:    #211A14; /* 본문 텍스트 */
+  --bd-stone:  #8C8073; /* 보조 텍스트 */
+  --bd-cloud:  #F3ECE1; /* 보더/구분선 */
+  --bd-paper:  #FFFBF5; /* 배경 (웜 화이트) */
+
+  /* ---- Semantic ---- */
+  --bd-success: var(--bd-leaf);
+  --bd-info:    var(--bd-azure);
+  --bd-warning: var(--bd-tangerine);
+  --bd-danger:  var(--bd-coral);
+}

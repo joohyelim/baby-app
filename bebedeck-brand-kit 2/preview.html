@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>bebedeck — Brand Kit</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="tokens/colors.css" />
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { font-family: Pretendard, sans-serif; background: var(--bd-paper); color: var(--bd-ink); padding: 48px; }
+  .wrap { max-width: 920px; margin: 0 auto; }
+  h1 { font-family: Poppins, sans-serif; font-size: 14px; letter-spacing: 3px; text-transform: uppercase; color: var(--bd-stone); margin-bottom: 8px; }
+  .hero { background: var(--bd-tangerine); border-radius: 28px; padding: 56px; display:flex; align-items:center; justify-content:center; margin-bottom: 40px; }
+  .hero img { width: 480px; max-width: 100%; }
+  section { margin-bottom: 44px; }
+  .label { font-family: Poppins, sans-serif; font-weight:700; font-size: 13px; letter-spacing:1px; color: var(--bd-stone); text-transform: uppercase; margin-bottom: 16px; }
+  .swatches { display:grid; grid-template-columns: repeat(auto-fill, minmax(150px,1fr)); gap:14px; }
+  .sw { border-radius:18px; padding:18px; height:120px; display:flex; flex-direction:column; justify-content:flex-end; color:#fff; font-weight:600; box-shadow: 0 6px 20px rgba(0,0,0,.06);}
+  .sw small { font-weight:500; opacity:.9; display:block; font-size:12px; }
+  .logos { display:flex; flex-wrap:wrap; gap:24px; align-items:center; }
+  .card { background:#fff; border:1px solid var(--bd-cloud); border-radius:20px; padding:28px; display:flex; align-items:center; justify-content:center; }
+  .card.dark { background: var(--bd-ink); }
+  .ui { display:flex; gap:24px; flex-wrap:wrap; }
+  .phone { width:280px; background:#fff; border:1px solid var(--bd-cloud); border-radius:28px; padding:20px; }
+  .chip { display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:700; padding:5px 10px; border-radius:999px; }
+  .item { display:flex; gap:12px; padding:12px 0; border-bottom:1px solid var(--bd-cloud); }
+  .thumb { width:52px; height:52px; border-radius:14px; background:var(--bd-tangerine-100); flex:none; }
+  .btn { background:var(--bd-tangerine); color:#fff; border:none; border-radius:16px; padding:14px; width:100%; font-family:Poppins; font-weight:700; font-size:15px; margin-top:14px; }
+  .ttl { font-weight:800; font-size:18px; }
+  .mut { color:var(--bd-stone); font-size:13px; }
+  .row { display:flex; gap:8px; margin-top:4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>bebedeck · Brand Kit</h1>
+
+  <div class="hero"><img src="logo/bebedeck-lockup.svg" alt="bebedeck lockup" style="filter:none"/></div>
+
+  <section>
+    <div class="label">Logo</div>
+    <div class="logos">
+      <div class="card"><img src="logo/bebedeck-mark.svg" width="120" /></div>
+      <div class="card"><img src="logo/bebedeck-app-icon.svg" width="120" /></div>
+      <div class="card"><img src="logo/bebedeck-wordmark.svg" width="240" /></div>
+      <div class="card dark" style="color:#fff"><img src="logo/bebedeck-mark-mono.svg" width="96" style="color:#FFFBF5"/></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">Color</div>
+    <div class="swatches">
+      <div class="sw" style="background:var(--bd-tangerine)">Tangerine<small>#FF5A1F · Primary</small></div>
+      <div class="sw" style="background:var(--bd-leaf)">Leaf<small>#14C46A · 성분/안전</small></div>
+      <div class="sw" style="background:var(--bd-azure)">Azure<small>#2D7DFF · 인증/신뢰</small></div>
+      <div class="sw" style="background:var(--bd-coral)">Coral<small>#FF3B5C · 알림</small></div>
+      <div class="sw" style="background:var(--bd-cocoa)">Cocoa<small>#6B3A23 · 딥</small></div>
+      <div class="sw" style="background:var(--bd-ink)">Ink<small>#211A14</small></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">In Use</div>
+    <div class="ui">
+      <div class="phone">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px">
+          <img src="logo/bebedeck-app-icon.svg" width="34"/>
+          <strong style="font-family:Poppins">bebedeck</strong>
+        </div>
+        <div class="ttl">생후 7개월 추천</div>
+        <div class="mut">발달단계에 맞춘 13개 아이템</div>
+        <div class="item">
+          <div class="thumb"></div>
+          <div>
+            <div style="font-weight:700">실리콘 이유식 식기</div>
+            <div class="row">
+              <span class="chip" style="background:var(--bd-leaf-100);color:#0a7a42">✓ 성분 안전</span>
+              <span class="chip" style="background:var(--bd-azure-100);color:#1a52c2">KC 인증</span>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="thumb" style="background:var(--bd-azure-100)"></div>
+          <div>
+            <div style="font-weight:700">원목 쌓기 교구</div>
+            <div class="row">
+              <span class="chip" style="background:var(--bd-coral-100);color:#c41d3a">주의: 소형부품</span>
+            </div>
+          </div>
+        </div>
+        <button class="btn">이 시기 도감 펼치기</button>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+</html>

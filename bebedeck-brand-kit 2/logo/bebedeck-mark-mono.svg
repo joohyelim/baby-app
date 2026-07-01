@@ -1,0 +1,14 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="bebedeck mark monochrome">
+  <!-- Monochrome line version. Uses currentColor: set color in CSS, or replace with #211A14 / #FFFBF5. -->
+  <g fill="none" stroke="currentColor" color="#211A14" stroke-width="7">
+    <g transform="rotate(-21 120 196)"><rect x="68" y="44" width="104" height="150" rx="24"/></g>
+    <g transform="rotate(21 120 196)"><rect x="68" y="44" width="104" height="150" rx="24"/></g>
+    <g transform="rotate(-8 120 196)"><rect x="68" y="44" width="104" height="150" rx="24"/></g>
+    <g transform="rotate(8 120 196)">
+      <rect x="68" y="44" width="104" height="150" rx="24"/>
+      <circle cx="104" cy="104" r="5" fill="currentColor" stroke="none"/>
+      <circle cx="136" cy="104" r="5" fill="currentColor" stroke="none"/>
+      <path d="M102 134 L116 150 L142 118" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>
