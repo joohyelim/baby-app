@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "baby-app",
+    "slug": "baby-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "babyapp",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.babyapp.demo"
+    },
+    "android": {
+      "package": "com.babyapp.demo"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
